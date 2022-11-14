@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.top {
+    background-image: url(img/backgroud.jpg);
+}
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+h2 {
+    color: #290066;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main_congratulation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 70px; 
+    margin-bottom: 16px; 
+    color: #FFFFFF; 
+    max-width: 786px;
+}
+.footer_title_text {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 70px;
+    margin-top: 64px;  
+    margin-bottom: 16px; 
+    color: #FFFFFF; 
+}
+.main_text {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+}
+.congratulation_box {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+.congratulation-content {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.congratulation_img {
+    height: 89px;
+    width: 89px;
+    margin-left: 120px;
+}
+.congratulation_name {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #290066;
+    margin-top: 10px;
+    margin-bottom: 9px;
+}
+.congratulation_name_description {
+    font-size: 16px;
+    line-height: 20px;
+    color: #3f009e;
+    margin-bottom: 12px;
+    max-width: 350px;
+}
+.white {
+    color: #fff;
+}
+.motivation_box{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 600px;
+    min-width: 600px;
+    padding-bottom: 10px;
+}
+.motivation_box_main {
+    display: flex;
+}
+.motivation_name {
+    color: #290066;
+}
+.congratulation_end_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.champion {
+    display: flex;
+    max-width: 600px;
+    min-width: 600px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.champion_img {
+        max-height: 500px;
+        max-width: 500px;
+}
+.footer {
+    height: 200px;
+    background-image: url(img/backgroud.jpg);
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.footer_title {
+    text-align: center;
+}
